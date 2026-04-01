@@ -1,35 +1,23 @@
-<<<<<<< HEAD
 # Campus Placement and Skill Intelligence Management System
 
-This is a starter full-stack project with:
-- React frontend
-- Spring Boot backend
-- MySQL database
-- JWT authentication
-- Modules for users, skills, drives, applications, and dashboard stats
+A full-stack campus placement portal built with React, Spring Boot, and MySQL.
 
-## Folder structure
-- `frontend/` - React app
-- `backend/` - Spring Boot app
+## Features
+- Student and admin login
+- Student registration
+- Resume upload
+- Skills management
+- Company drives
+- Application tracking
+- Eligibility checking
+- Admin dashboard
+- Placement analytics
 
-## Quick start
-### Backend
-```bash
-cd backend
-mvn spring-boot:run
-```
+## Tech Stack
+- Frontend: React
+- Backend: Spring Boot
+- Database: MySQL
 
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-## Important
-Before running backend, set your MySQL password in:
-- `backend/src/main/resources/application.properties`
-=======
-# campus-placement-system
-Campus Placement and Skill Intelligence Management System
->>>>>>> 602474c64dfc3e1a37718897613253fb7d989744
+## Project Structure
+- frontend
+- backend
