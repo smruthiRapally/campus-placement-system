@@ -1,6 +1,7 @@
 FROM maven:3.9.6-eclipse-temurin-17 AS build
 WORKDIR /app
-COPY . .
+COPY campus-placement-system/backend/pom.xml .
+COPY campus-placement-system/backend/src ./src
 RUN mvn clean package -DskipTests
 
 FROM eclipse-temurin:17-jre
